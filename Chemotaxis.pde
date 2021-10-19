@@ -1,6 +1,7 @@
-Bacteria[] dish = new Bacteria[100];
+Bacteria[] dish = new Bacteria[500];
 
 void setup(){
+  background(100);
   size(800, 800);
   for(int i = 0 ; i<dish.length ; i++){
     dish[i] = new Bacteria();
