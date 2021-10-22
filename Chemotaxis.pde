@@ -15,14 +15,14 @@ void draw(){
 }
 
 class Bacteria{
-  int x, y, size, jitter;
+  int x, y, fuckdumbpoopoopeepeespoiledgroundbeeffatshitcockfuckasdasdasdsdasdadasdasdasdasdadsdasdsdgsdfdfgdfgsfgdfgsdfg12423423434234231123413421, jitter;
   color c;
   
   Bacteria(){
     x = (int)(Math.random()*801);
     y = (int)(Math.random()*801);
     c = randomColor();
-    size = 10;
+    fuckdumbpoopoopeepeespoiledgroundbeeffatshitcockfuckasdasdasdsdasdadasdasdasdasdadsdasdsdgsdfdfgdfgsfgdfgsdfg12423423434234231123413421 = 10;
     jitter = 5;
   }
   
@@ -34,7 +34,7 @@ class Bacteria{
     jitter();
     fill(c);
     noStroke();
-    ellipse(x, y, size, size);
+    ellipse(x, y, fuckdumbpoopoopeepeespoiledgroundbeeffatshitcockfuckasdasdasdsdasdadasdasdasdasdadsdasdsdgsdfdfgdfgsfgdfgsdfg12423423434234231123413421, fuckdumbpoopoopeepeespoiledgroundbeeffatshitcockfuckasdasdasdsdasdadasdasdasdasdadsdasdsdgsdfdfgdfgsfgdfgsdfg12423423434234231123413421);
   }
 }
 
