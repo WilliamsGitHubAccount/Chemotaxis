@@ -25,17 +25,17 @@ class Bacteria{
     fuckdumbpoopoopeepeespoiledgroundbeeffatshitcockfuckasdasdasdsdasdadasdasdasdasdadsdasdsdgsdfdfgdfgsfgdfgsdfg12423423434234231123413421 = 10;
     jitter = 5;
   }
-  
-  void jitter(){
-    x+=(int)(Math.random()*(2*jitter+1))-jitter;
-    y+=(int)(Math.random()*(2*jitter+1))-jitter;
-  }
-  void update(){
+    void update(){
     jitter();
     fill(c);
     noStroke();
     ellipse(x, y, fuckdumbpoopoopeepeespoiledgroundbeeffatshitcockfuckasdasdasdsdasdadasdasdasdasdadsdasdsdgsdfdfgdfgsfgdfgsdfg12423423434234231123413421, fuckdumbpoopoopeepeespoiledgroundbeeffatshitcockfuckasdasdasdsdasdadasdasdasdasdadsdasdsdgsdfdfgdfgsfgdfgsdfg12423423434234231123413421);
   }
+  void jitter(){
+    x+=(int)(Math.random()*(2*jitter+1))-jitter;
+    y+=(int)(Math.random()*(2*jitter+1))-jitter;
+  }
+
 }
 
 color randomColor(){
