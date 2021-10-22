@@ -26,12 +26,12 @@ class Bacteria{
     jitter = 5;
   }
     void update(){
-    jitter();
+    pissshit();
     fill(c);
     noStroke();
     ellipse(x, y, fuckdumbpoopoopeepeespoiledgroundbeeffatshitcockfuckasdasdasdsdasdadasdasdasdasdadsdasdsdgsdfdfgdfgsfgdfgsdfg12423423434234231123413421, fuckdumbpoopoopeepeespoiledgroundbeeffatshitcockfuckasdasdasdsdasdadasdasdasdasdadsdasdsdgsdfdfgdfgsfgdfgsdfg12423423434234231123413421);
   }
-  void jitter(){
+  void pissshit(){
     x+=(int)(Math.random()*(2*jitter+1))-jitter;
     y+=(int)(Math.random()*(2*jitter+1))-jitter;
   }
